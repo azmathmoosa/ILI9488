@@ -4,6 +4,20 @@ Sming graphics library for ILI9488.
 
 #How To
 
+If you are using ESP8266 then connect your ILI9488 to the ESP8266 like this:
+
+Pin Mapping
+9488  ESP
+------------
+MISO  GPIO12
+MOSI  GPIO13
+CLK   GPIO14
+CS    GPIO15
+DC    GPIO5
+RST   GPIO4
+
+If you are using something else, just figure out the SPI pins and connect them.
+
 Just add this library in your Sming/Sming/Libraries folder.
 
 Then just use it like so in your application code
