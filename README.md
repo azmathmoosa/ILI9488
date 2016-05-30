@@ -33,6 +33,30 @@ These are the methods that can be used.
  void wakeUp(); // renables clocks
 ```
 
+These are some color definitions. Format is R-G-B 8-8-8 You can add your own too.
+
+```C++
+// Color definitions
+#define ILI9488_BLACK       0x00000000      /*   0,   0,   0 */
+#define ILI9488_NAVY        0x00097194      /*   0,   0, 128 */
+#define ILI9488_DARKGREEN   0x001F7300      /*   0, 128,   0 */
+#define ILI9488_DARKCYAN    0x0001857E      /*   0, 128, 128 */
+#define ILI9488_MAROON      0x00E770FF      /* 128,   0,   0 */
+#define ILI9488_PURPLE      0x00710087      /* 128,   0, 128 */
+#define ILI9488_OLIVE       0x00007BE0      /* 128, 128,   0 */
+#define ILI9488_LIGHTGREY   0x0000C618      /* 192, 192, 192 */
+#define ILI9488_DARKGREY    0x00007BEF      /* 128, 128, 128 */
+#define ILI9488_BLUE        0x000D15FF      /*   0,   0, 255 */
+#define ILI9488_GREEN       0x0031FF0D      /*   0, 255,   0 */
+#define ILI9488_CYAN        0x000007FF      /*   0, 255, 255 */
+#define ILI9488_RED         0x00FF1919      /* 255,   0,   0 */
+#define ILI9488_MAGENTA     0x00FF5CDE      /* 255,   0, 255 */
+#define ILI9488_YELLOW      0x00FAFF5C      /* 255, 255,   0 */
+#define ILI9488_WHITE       0x00FFFFFF      /* 255, 255, 255 */
+#define ILI9488_ORANGE      0x00DB7100      /* 255, 165,   0 */
+#define ILI9488_GREENYELLOW 0x0000AFE5      /* 173, 255,  47 */
+#define ILI9488_PINK        0x0000F81F
+```
 #Note
 
 Adafruit has nothing to do with this, I was too lazy to change the names while modifying code form the Adafruit ILI9341 library :D
