@@ -10,6 +10,11 @@ Then just use it like so in your application code
 
 ```C++
 Adafruit_ILI9488 tft;
+tft.begin();
+tft.fillScreen(ILI9488_BLACK);
+tft.setTextColor(ILI9488_WHITE);
+tft.setTextSize(2);
+tft.println("Hello World!");
 ```
 
 These are the methods that can be used.
